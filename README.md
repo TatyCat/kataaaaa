@@ -1,2 +1,2 @@
 # kataaaaa
-Repo for Code Katas
+A repository for Code Katas.
