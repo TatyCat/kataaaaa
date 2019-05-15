@@ -1,0 +1,11 @@
+function sumMix(x){
+  return x.reduce((accumulator, cVal) => parseInt(accumulator) + parseInt(cVal), 0)
+}
+
+// TAKE IN AN ARRAY
+// sort through the array and convert the contents into type number
+// when finished casting the type of the array contents, get the sum of the
+//    #s and return the sum number. 
+
+
+##Sum Mixed Array
