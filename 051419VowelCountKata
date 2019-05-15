@@ -1,8 +1,6 @@
 function getCount(str) {
   var vowelsCount = 0;
   
-  // enter your majic here
-  
   const newStr = str.split("")
   const allVowels = ["a", "e", "i", "o", "u"]
   
