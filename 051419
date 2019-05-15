@@ -1,0 +1,30 @@
+function getCount(str) {
+  var vowelsCount = 0;
+  
+  // enter your majic here
+  
+  const newStr = str.split("")
+  const allVowels = ["a", "e", "i", "o", "u"]
+  
+  newStr.forEach(x => {
+    allVowels.forEach(i => {
+    
+    if (i === x){
+       vowelsCount++
+       }
+      })
+    }
+  )
+
+  return vowelsCount;
+}
+
+
+// input-string
+              
+// loop through the string to see if it's matching to vowels a, e, i, o, u
+//   if it is, ++
+// return count of input vowels
+
+
+##VowelCountKata
